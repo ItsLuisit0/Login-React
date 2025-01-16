@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../assets/FondoReact.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+.loginForm {
+    max-width: 400px;
+    width: 800%; 
+    margin-left: -200px;
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom right, #007bff, #00aaff); 
+}
+
+.loginFormContent {
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 20px; 
+}
+
+.loginForm h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; 
+}
+
+.loginForm label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333; 
+}
+
+.loginForm label[for="rolUsuario"] {
+    margin-bottom: 10px;
+}
+
+.loginForm input,
+.loginForm select {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+}
+
+.loginForm input[type="password"] {
+    margin-bottom: 30px; 
+}
+
+.loginForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 50px; 
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    font-weight: 600; 
+}
+
+.loginForm button:hover {
+    background-color: #004494; 
+}
+
+.loginForm p {
+    text-align: center;
+}
+
+.loginForm a {
+    color: #007bff; 
+}
+
+.userIcon,
+.PasswordIcon {
+    margin-right: 8px; 
+    vertical-align: middle; 
+}
+
+.loginForm select {
+    width: calc(100% - 2px); 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px; 
+}
