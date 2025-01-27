@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import classes from './Styles.module.css'; 
+import './Styles.module.css'; 
 import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
@@ -17,11 +17,11 @@ const LoginForm: React.FC = () => {
     };
 
     const navigate = useNavigate();
-    const hadleClick = () => navigate('/roles')
+    const hadleClick = () => navigate('/roles') 
 
     return (
-        <div className={classes.loginForm}>
-            <div className={classes.loginFormContent}>
+        <div className = 'loginForm'>
+            <div className= 'loginFormContent'>
                 <h1>Iniciar Sesión</h1>
                 <form onSubmit={handleSubmit}>
                     <div>
@@ -33,9 +33,9 @@ const LoginForm: React.FC = () => {
                             <option value="guest">Invitado</option>
                         </select>
                     </div>
-                    <div className={classes.inputGroup}>
+                    <div className= 'inputGroup'>
                         <label htmlFor="username">
-                            <FaUser className={classes.userIcon} />
+                            <FaUser className= 'userIcon' />
                             Usuario:
                         </label> 
                         <input 
@@ -48,7 +48,7 @@ const LoginForm: React.FC = () => {
                     </div>
                     <div>
                         <label htmlFor="password">
-                            <FaLock className={classes.PasswordIcon} />
+                            <FaLock className= 'PasswordIcon' />
                             Contraseña:
                         </label>
                         <input 

@@ -1,4 +1,4 @@
-body {
+.loginForm {
     font-family: 'Poppins', sans-serif;
     background-image: url('../assets/FondoReact.jpg'); 
     background-size: cover;
@@ -8,9 +8,6 @@ body {
     align-items: center; 
     height: 100vh; 
     margin: 0; 
-}
-
-.loginForm {
     max-width: 400px;
     width: 800%; 
     margin-left: -200px;
@@ -19,6 +16,8 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     background: linear-gradient(to bottom right, #007bff, #00aaff); 
 }
+
+
 
 .loginFormContent {
     background-color: white; 
